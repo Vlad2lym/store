@@ -1,3 +1,4 @@
+import MyButton from '@/components/UI/myButton'
 import { getPageCount, getPagesArray } from '@/utils/pages'
 import { NextPage } from 'next'
 import { useMemo, useState } from 'react'
@@ -33,12 +34,14 @@ const Home:NextPage<HomeProps> = ({store}) => {
         return <Product key={product.id} product={product}/>
       })}
       <div className={styles.page__wrapper}>
-        <button 
+        <MyButton 
           onClick={() => setCurrentPage(currentPage - 1)}
+          default
+          large
           disabled={currentPage === 1}
         >
           prev
-        </button>
+        </MyButton>
           {pagesArray.map(page => {
             return (
               <div
@@ -49,12 +52,14 @@ const Home:NextPage<HomeProps> = ({store}) => {
               </div>
             )
           })}
-        <button
+        <MyButton
           onClick={() => setCurrentPage(currentPage + 1)}
+          default
+          large
           disabled={currentPage === pagesArray.at(-1)}
         >
           next
-        </button>
+        </MyButton>
       </div>
     </div>
   )

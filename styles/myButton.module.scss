@@ -1,0 +1,48 @@
+.button{
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.button_default{
+    background-color: #2097d7;
+    color: whitesmoke;
+    &:hover{
+        background-color: #3d7593;
+    }
+}
+
+.button_success{
+    background-color: green;
+    color: whitesmoke;
+    &:hover{
+        background-color: #379337;
+    }
+}
+
+.button_danger{
+    background-color: red;
+    color: whitesmoke;
+    &:hover{
+        background-color: #ff6161;
+    }
+}
+
+.button_disabled{
+    background-color: #d7d7d7;
+    color: gray;
+    &:hover{
+    background-color: #d7d7d7;
+    }
+}
+
+.button_large{
+    height: 45px;
+    width: 120px;
+}
+
+.button_block{
+    margin: auto;
+}

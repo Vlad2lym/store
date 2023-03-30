@@ -1,0 +1,23 @@
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.page__wrapper{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page{
+  margin: 25px 20px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.page__current{
+  font-weight: 400;
+  color: gray;
+}

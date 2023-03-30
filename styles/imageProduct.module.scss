@@ -1,0 +1,22 @@
+.image{
+    align-self: center;
+    margin: 31px 0 -12px;
+}
+
+.labelHit{
+    width: 64px;
+    height: 24px;
+    background-color: #F23C30;
+    transform: translate(226px, -208px) skew(-30deg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    p{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: white;
+        transform: skew(30deg);
+    }
+}

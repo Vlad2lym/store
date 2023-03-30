@@ -1,0 +1,40 @@
+.product{
+    width: 332px;
+    height: 462px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #F5F5F7;
+    margin: 15px;
+}
+
+.title, .brand{
+    color: #2E2E33;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 3px 30px 7px;
+    width: 272px;
+    height: 66px;
+}
+
+.brand{
+    height: auto;
+    font-weight: 600;
+}
+
+.price{
+    display: flex;
+    align-items: baseline;
+    padding: 0 0 13px 30px;
+    h2{
+        margin: 0;
+        font-size: 22px;
+        line-height: 20px;
+    }
+    p{
+        font-size: 12px;
+        line-height: 20px;
+        color: #999999;
+        margin: 0;
+    }
+}
